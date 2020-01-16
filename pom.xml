@@ -34,5 +34,6 @@
     <module>eureka_service_center</module>
     <module>eureka_client</module>
     <module>eureka_service_cluster</module>
+    <module>Ribbon</module>
   </modules>
 </project>

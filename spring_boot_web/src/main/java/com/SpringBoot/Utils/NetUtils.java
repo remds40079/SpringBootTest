@@ -22,6 +22,7 @@ public class NetUtils {
 		try {
 			Socket socket = new Socket(address, port);
 			flag = true;
+			socket.close();
 		} catch (IOException e) {
 		}
 		return flag;
